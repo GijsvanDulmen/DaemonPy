@@ -1,5 +1,7 @@
 #!/usr/bin/python
 
+from future import absolute_import
+from future import print_function
 import sys, os, time, atexit
 from signal import SIGTERM 
 
